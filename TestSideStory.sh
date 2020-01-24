@@ -15,7 +15,7 @@ if [ -f "$file" ]
 then
 	echo " ${RED}TestSideStory.sh is initializing.${NC}"
 else
-	echo " ${RED}TestSideStory.sh could not find GNLtest. Please edit line 18 of Test9000.sh to ensure the compilation command is correct.${NC}"
+	echo " ${RED}TestSideStory.sh could not find GNLtest. Please edit line 18 of TestSideStory.sh to ensure the compilation command is correct.${NC}"
 	exit
 fi
 # Checks if compilation was succesful and exits function if not
