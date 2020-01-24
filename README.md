@@ -8,3 +8,7 @@ Change the buffer_size to see how your get_next_line performs.
 1000000 buffer size should function, even when dealing with a lot of lines.
 
 # Use Woof to exit the function at any point.
+^..^      /
+/_/\_____/
+   /\   /|
+  /  \ / |
