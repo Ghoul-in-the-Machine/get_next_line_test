@@ -9,7 +9,7 @@ echo "\n ${RED}Starting TestSideStory.sh ...${NC}"
 sleep 1s
 echo " ${RED}What buffer size would you like to use for testing?${NC}"
 read varbufsize
-gcc -Wall -Wextra -Werror -D BUFFER_SIZE=$varbufsize get_next_line.c get_next_line_utils.c main.c -o GNLtest
+gcc -Wall -Wextra -Werror -D BUFFER_SIZE=$varbufsize get_next_line.c get_next_line_utils.c test_main.c -o GNLtest
 file="GNLtest"
 if [ -f "$file" ]
 then
